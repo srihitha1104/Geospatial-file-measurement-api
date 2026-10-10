@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Sample Plot</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              78.0000,17.0000,0
+              78.0010,17.0000,0
+              78.0010,17.0010,0
+              78.0000,17.0010,0
+              78.0000,17.0000,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Sample Boundary</name>
+      <LineString>
+        <coordinates>
+          78.0000,17.0000,0
+          78.0010,17.0000,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
